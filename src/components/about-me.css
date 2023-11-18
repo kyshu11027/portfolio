@@ -6,4 +6,13 @@
 .about-me {
   background-color: darkcyan;
   width: 60%;
+  align-items: center;
+  padding: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.headshot {
+  max-width: 50%;
+  border-radius: 18px;
 }

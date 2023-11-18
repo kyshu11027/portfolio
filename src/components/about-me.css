@@ -1,0 +1,9 @@
+.about-me-container {
+  display: flex;
+  font-family: Lato, sans-serif;
+}
+
+.about-me {
+  background-color: darkcyan;
+  width: 60%;
+}

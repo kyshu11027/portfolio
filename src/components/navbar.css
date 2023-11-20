@@ -45,6 +45,7 @@
     0px 2.9825618267059326px 7.456404209136963px rgba(0, 0, 0, 0.1)
   );
   cursor: pointer;
+  color: black;
 }
 
 .nav-link:hover {

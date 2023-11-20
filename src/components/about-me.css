@@ -1,11 +1,16 @@
+.container-fluid {
+  padding: 0px;
+}
+
 .about-me-container {
   display: flex;
   font-family: Lato, sans-serif;
+  margin: 0px;
 }
 
 .about-me {
-  background-color: darkcyan;
-  width: 60%;
+  background-color: #092934;
+  /* width: 60%; */
   align-items: center;
   padding: 20px;
   display: flex;
@@ -15,4 +20,8 @@
 .headshot {
   max-width: 50%;
   border-radius: 18px;
+}
+
+.about-me-text {
+  color: white;
 }

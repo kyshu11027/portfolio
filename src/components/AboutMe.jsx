@@ -1,12 +1,20 @@
 import React from "react";
-import "./about-me.css";
+import "../css/about-me.css";
+import {
+  CarouselProvider,
+  Slider,
+  Slide,
+  ButtonBack,
+  ButtonNext,
+} from "pure-react-carousel";
+import "pure-react-carousel/dist/react-carousel.es.css";
 
 const AboutMe = () => {
   return (
     <div className="container-fluid">
       <div className="about-me-container row">
-        <div className="about-me col-lg-8 col-md-7 col-sm-12">
-          <img src="../src/assets/headshot.jpg" className="headshot" />
+        <div className="about-me col-lg-8 col-md-9 col-sm-12 ">
+          <img src="../src/assets/headshot.jpg" className=" headshot" />
           <div className="about-me-text">
             <h3>hey, i'm kevin!</h3>
             <p>welcome to my personal website. </p>
@@ -28,7 +36,37 @@ const AboutMe = () => {
           </div>
         </div>
 
-        <div className="hobbies col-lg-4 col-md-5 col-sm-12">Hobbies</div>
+        <div className="hobbies col-lg-4 col-md-3 col-sm-12">
+          <CarouselProvider
+            naturalSlideWidth={100}
+            naturalSlideHeight={125}
+            totalSlides={3}
+            className="carousel"
+          >
+            <Slider>
+              <Slide className="carousel-slide" index={0}>
+                <img
+                  src="../src/assets/headshot.jpg"
+                  className="carousel-image"
+                />
+              </Slide>
+              <Slide className="carousel-slide" index={1}>
+                <img
+                  src="../src/assets/headshot.jpg"
+                  className="carousel-image"
+                />
+              </Slide>
+              <Slide className="carousel-slide" index={2}>
+                <img
+                  src="../src/assets/headshot.jpg"
+                  className="carousel-image"
+                />
+              </Slide>
+            </Slider>
+            <ButtonBack className="carousel-button-back">Back</ButtonBack>
+            <ButtonNext className="carousel-button-next">Next</ButtonNext>
+          </CarouselProvider>
+        </div>
       </div>
     </div>
   );

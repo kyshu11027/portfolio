@@ -2,7 +2,8 @@ import React from "react";
 import githubLogo from "../assets/github-mark.png";
 import linkedinLogo from "../assets/LI-In-Bug.png";
 import emailLogo from "../assets/email.png";
-import "./navbar.css";
+import "../css/navbar.css";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -22,9 +23,17 @@ const Navbar = () => {
       </div>
 
       <div className="nav-bottom-row">
-        <button className="nav-link">about me</button>
-        <button className="nav-link">projects</button>
-        <button className="nav-link">contact me</button>
+        <Link className="nav-link" to="/">
+          about me
+        </Link>
+
+        <Link className="nav-link" to="/projects">
+          projects
+        </Link>
+
+        <Link className="nav-link" to="/contact-me">
+          contact me
+        </Link>
       </div>
     </div>
   );

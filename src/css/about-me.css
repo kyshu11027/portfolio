@@ -25,3 +25,20 @@
 .about-me-text {
   color: white;
 }
+.hobbies {
+  padding: 0px;
+  align-items: center;
+}
+
+.carousel {
+  align-items: center;
+  background-color: blue;
+}
+
+.carousel-slide {
+  max-height: 100%;
+}
+
+.carousel-image {
+  max-height: 100%;
+}

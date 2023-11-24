@@ -46,8 +46,14 @@
   );
   cursor: pointer;
   color: black;
+  text-align: center;
 }
 
 .nav-link:hover {
   filter: brightness(90%);
+  color: black;
+}
+
+.nav-link:focus {
+  color: black;
 }

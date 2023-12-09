@@ -1,0 +1,12 @@
+.footer-text {
+  text-align: center;
+  padding: 20px;
+  font-size: 20px;
+  letter-spacing: 0.1rem;
+  height: 10vh;
+  background-color: #d9d9d9;
+  filter: drop-shadow(
+    0px -2.9825618267059326px 7.456404209136963px rgba(0, 0, 0, 0.1)
+  );
+  margin-top: -50px;
+}

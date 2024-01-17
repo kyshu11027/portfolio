@@ -14,7 +14,7 @@ const AboutMe = () => {
     <div className="container-fluid">
       <div className="about-me-container row">
         <div className="about-me col-12 col-md-8">
-          <img src="../src/assets/headshot.jpg" className="headshot" />
+          <img src="/assets/headshot.jpg" className="headshot" />
           <div className="about-me-text">
             <h2>hey, i'm kevin!</h2>
             <p>welcome to my personal website. </p>
@@ -48,19 +48,19 @@ const AboutMe = () => {
             <Slider>
               <Slide index={0}>
                 <img
-                  src="../src/assets/headshot.jpg"
+                  src="/assets/hitting.jpeg"
                   className="carousel-image"
                 />
               </Slide>
               <Slide index={1}>
                 <img
-                  src="../src/assets/headshot.jpg"
+                  src="/assets/capybara.jpeg"
                   className="carousel-image"
                 />
               </Slide>
               <Slide index={2}>
                 <img
-                  src="../src/assets/headshot.jpg"
+                  src="/assets/lolla.jpg"
                   className="carousel-image"
                 />
               </Slide>

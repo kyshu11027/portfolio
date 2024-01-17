@@ -1,7 +1,7 @@
 import React from "react";
-import githubLogo from "../assets/github-mark.png";
-import linkedinLogo from "../assets/LI-In-Bug.png";
-import emailLogo from "../assets/email.png";
+import githubLogo from "/assets/github-mark.png";
+import linkedinLogo from "/assets/LI-In-Bug.png";
+import emailLogo from "/assets/email.png";
 import "../css/navbar.css";
 import { Link } from "react-router-dom";
 

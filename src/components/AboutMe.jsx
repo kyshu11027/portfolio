@@ -47,26 +47,19 @@ const AboutMe = () => {
           >
             <Slider>
               <Slide index={0}>
-                <img
-                  src="/assets/hitting.jpeg"
-                  className="carousel-image"
-                />
+                <img src="/assets/hitting.jpeg" className="carousel-image" />
               </Slide>
               <Slide index={1}>
-                <img
-                  src="/assets/capybara.jpeg"
-                  className="carousel-image"
-                />
+                <img src="/assets/capybara.jpeg" className="carousel-image" />
               </Slide>
               <Slide index={2}>
-                <img
-                  src="/assets/lolla.jpg"
-                  className="carousel-image"
-                />
+                <img src="/assets/lolla.jpg" className="carousel-image" />
               </Slide>
             </Slider>
-            <ButtonBack className="carousel-button back">Back</ButtonBack>
-            <ButtonNext className="carousel-button next">Next</ButtonNext>
+            <div className="button-container">
+              <ButtonBack className="carousel-button back">Back</ButtonBack>
+              <ButtonNext className="carousel-button next">Next</ButtonNext>
+            </div>
             <div className="hobbies-caption">
               here are some of the things i do outside of programming. feel free
               to chat with me about any of them!

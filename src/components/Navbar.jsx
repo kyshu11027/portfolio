@@ -17,7 +17,7 @@ const Navbar = () => {
         <a href="https://www.linkedin.com/in/kyshu/" target="_blank">
           <img src={linkedinLogo} className="logo" alt="LinkedIn logo" />
         </a>
-        <a href="mailto:shuster5494@gmail.com" target="_blank">
+        <a href="mailto:kevinyshu@gmail.com" target="_blank">
           <img src={emailLogo} className="logo" alt="Email logo" />
         </a>
       </div>
@@ -29,10 +29,6 @@ const Navbar = () => {
 
         <Link className="nav-link" to="/projects">
           projects
-        </Link>
-
-        <Link className="nav-link" to="/contact-me">
-          contact me
         </Link>
       </div>
     </div>

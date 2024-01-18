@@ -1,0 +1,49 @@
+.project-card {
+  filter: drop-shadow(
+    0px 2.9825618267059326px 7.456404209136963px rgba(0, 0, 0, 0.5)
+  );
+  border-radius: 15px;
+  width: 500px;
+  height: 200px;
+  background: #092934;
+  color: white;
+  display: flex;
+  flex-direction: row;
+}
+
+.text-box {
+  padding: 10px;
+}
+
+.name {
+  margin-bottom: 2px;
+}
+
+.name > a {
+  color: white;
+  text-decoration: none;
+}
+
+.name:hover {
+  text-decoration: underline;
+}
+
+.tech-stack {
+  font-size: 12px;
+  color: #d9d9d9;
+  margin-bottom: 10px;
+}
+
+.image-container {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+img {
+  max-height: 150px;
+  max-width: 150px;
+  align-items: center;
+}

@@ -12,7 +12,6 @@
   padding: 15px 40px;
   display: flex;
   align-items: center;
-  /* background-color: blue; */
   gap: 30px;
 }
 .nav-bottom-row {
@@ -26,7 +25,6 @@
   margin-right: auto;
   font-weight: 700;
   font-size: 30px;
-  /* background-color: green; */
   margin-bottom: 0px;
 }
 

@@ -26,7 +26,7 @@ const Projects = () => {
         name="Personal Portfolio"
         link="https://github.com/kyshu11027/portfolio"
         description="My personal online portfolio that tells the world a bit about myself, lists my favorite projects, and shows my contact information."
-        tech={["Javascript", "React"]}
+        tech={["Javascript", "React", "Bootstrap"]}
         img={website}
       />
     </div>

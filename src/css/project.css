@@ -42,7 +42,7 @@
   margin-right: 20px;
 }
 
-img {
+.image-container > img {
   max-height: 150px;
   max-width: 150px;
   align-items: center;

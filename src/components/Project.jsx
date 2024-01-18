@@ -6,8 +6,8 @@ const Project = ({ name, description, link, img, tech }) => {
     window.open(link);
   };
   return (
-    <div className="project-card" onClick={handleClick}>
-      <div className="text-box">
+    <div className="project-card col-md-6 col-12" onClick={handleClick}>
+      <div className="text-box container-fluid">
         <h2 className="name">
           <a href={link} target="_blank">
             {name}

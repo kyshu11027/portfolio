@@ -14,6 +14,7 @@ const Projects = () => {
         description="iOS App for fashion fanatics who want to build their virtual closet and log their favorite outfits."
         tech={["Storyboard", "Swift", "Firebase", "Figma"]}
         img={ootd}
+        className="row"
       />
       <Project
         name="Peak Recognizer"
@@ -21,6 +22,7 @@ const Projects = () => {
         description="Data science project to recognize target peaks in microchip electrophoresis traces. "
         tech={["Python", "Jupyter", "Sci-kit Learn"]}
         img={peakRec}
+        className="row"
       />
       <Project
         name="Personal Portfolio"
@@ -28,6 +30,7 @@ const Projects = () => {
         description="My personal online portfolio that tells the world a bit about myself, lists my favorite projects, and shows my contact information."
         tech={["Javascript", "React", "Bootstrap"]}
         img={website}
+        className="row"
       />
     </div>
   );

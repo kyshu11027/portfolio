@@ -11,6 +11,11 @@
   flex-direction: row;
 }
 
+.project-card:hover {
+  filter: brightness(90%);
+  cursor: pointer;
+}
+
 .text-box {
   padding: 10px;
 }

@@ -18,6 +18,7 @@
   display: flex;
   gap: 25px;
   padding: 20px 30px;
+  padding-right: 0px;
   margin: 0px;
 }
 

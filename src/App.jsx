@@ -4,7 +4,7 @@ import Navbar from "./components/Navbar";
 import "./App.css";
 import { Routes, Route } from "react-router-dom";
 import Projects from "./components/Projects";
-import Footer from "./components/Footer";
+import Skills from "./components/Skills";
 
 function App() {
   return (
@@ -13,8 +13,8 @@ function App() {
       <Routes>
         <Route exact path="/" element={<AboutMe />} />
         <Route exact path="/projects" element={<Projects />} />
+        <Route exact path="/skills" element={<Skills />} />
       </Routes>
-      {/* <Footer /> */}
     </>
   );
 }

@@ -26,7 +26,8 @@ const AboutMe = () => {
               in May 2023, i graduated from the University of Southern
               California with a degree in biomedical engineering. from my
               studies, i found my interest in computer programming/science, and
-              i've been pursuing a career in tech.
+              i've been pursuing a career in full-stack web development. Check
+              out my skills page for the technologies that I've worked with.
             </p>
             <p>
               i love to learn new skills and apply them to projects. feel free

@@ -7,7 +7,7 @@ import "../css/projects.css";
 
 const Projects = () => {
   return (
-    <div className="container">
+    <div className="project-container">
       <Project
         name="OOTD App"
         link="https://github.com/kyshu11027/OOTD"

@@ -22,18 +22,20 @@ const Navbar = () => {
         </a>
       </div>
 
-      <div className="nav-bottom-row">
-        <Link className="nav-link" to="/">
-          about me
-        </Link>
+      <div className="container-fluid">
+        <div className="row justify-content-left nav-bottom-row">
+          <Link className="nav-link col-3 col-md-2" to="/">
+            about me
+          </Link>
 
-        <Link className="nav-link" to="/projects">
-          projects
-        </Link>
+          <Link className="nav-link col-3 col-md-2" to="/projects">
+            projects
+          </Link>
 
-        <Link className="nav-link" to="/skills">
-          skills
-        </Link>
+          <Link className="nav-link col-3 col-md-2" to="/skills">
+            skills
+          </Link>
+        </div>
       </div>
     </div>
   );

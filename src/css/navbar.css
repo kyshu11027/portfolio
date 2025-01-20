@@ -1,62 +1,63 @@
 .nav {
-  /* height: 150px; */
-  background-color: #d9d9d9;
-  display: flex;
-  flex-direction: column;
-  filter: drop-shadow(
-    0px 2.9825618267059326px 7.456404209136963px rgba(0, 0, 0, 0.1)
-  );
+    /* height: 150px; */
+    background-color: #d9d9d9;
+    display: flex;
+    flex-direction: column;
+    filter: drop-shadow(
+        0px 2.9825618267059326px 7.456404209136963px rgba(0, 0, 0, 0.1)
+    );
 }
 
 .nav-top-row {
-  padding: 15px 30px;
-  display: flex;
-  align-items: center;
-  gap: 30px;
+    padding: 15px 30px;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
 }
 .nav-bottom-row {
-  display: flex;
-  gap: 25px;
-  padding: 20px 30px;
-  padding-right: 0px;
-  margin: 0px;
+    display: flex;
+    gap: 25px;
+    padding: 10px 30px;
+    padding-right: 0px;
+    margin: 0px;
 }
 
 .nav-name {
-  margin-right: auto;
-  font-weight: 700;
-  font-size: 30px;
-  margin-bottom: 0px;
+    margin-right: auto;
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 0px;
 }
 
 .logo {
-  height: 30px;
+    height: 30px;
 }
 
 .nav-link {
-  background-color: #d2f1e4;
-  border: 0px;
-  padding-top: 10px;
-  font-size: 16px;
-  font-family: Lato, sans-serif;
-  border-radius: 15px;
-  max-width: 130px;
-  min-height: 45px;
-  filter: drop-shadow(
-    0px 2.9825618267059326px 7.456404209136963px rgba(0, 0, 0, 0.1)
-  );
-  cursor: pointer;
-  color: black;
-  text-align: center;
-  letter-spacing: 0.05rem;
-  font-weight: 500;
+    background-color: #d2f1e4;
+    border: 0px;
+    padding-top: 10px;
+    font-size: 16px;
+    font-family: Lato, sans-serif;
+    border-radius: 15px;
+    max-width: 130px;
+    min-height: 45px;
+    filter: drop-shadow(
+        0px 2.9825618267059326px 7.456404209136963px rgba(0, 0, 0, 0.1)
+    );
+    cursor: pointer;
+    color: black;
+    text-align: center;
+    letter-spacing: 0.05rem;
+    font-weight: 500;
 }
 
 .nav-link:hover {
-  filter: brightness(90%);
-  color: black;
+    filter: brightness(90%);
+    color: black;
 }
 
 .nav-link:focus {
-  color: black;
+    color: black;
 }

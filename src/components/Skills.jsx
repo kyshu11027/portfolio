@@ -27,6 +27,7 @@ const Skills = () => {
                             <li>Sci-kit Learn</li>
                             <li>Docker</li>
                             <li>AWS</li>
+                            <li>Terraform</li>
                             <li>Linux</li>
                             <li>Bash</li>
                             <li>Bootstrap</li>

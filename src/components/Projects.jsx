@@ -18,6 +18,7 @@ const Projects = () => {
                     "Python",
                     "NextJS",
                     "TailwindCSS",
+                    "Terraform"
                 ]}
                 img={pickpix}
                 className="row"

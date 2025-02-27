@@ -6,7 +6,7 @@
   display: flex;
   font-family: Lato, sans-serif;
   margin: 0px;
-  height: 89vh;
+  height: 90vh;
 }
 
 .about-me {
@@ -14,22 +14,24 @@
   align-items: center;
   padding: 20px;
   display: flex;
+  flex-direction: row;
   gap: 20px;
 }
 
 .headshot {
   max-width: 50%;
-  max-height: 500px;
+  max-height: 75%;
   border-radius: 18px;
+  object-fit: cover;
 }
 
 .about-me-text {
-  font-size: 15px;
+  font-size: 20px;
   color: white;
 }
 
 .about-me-text > h2 {
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .carousel__container {

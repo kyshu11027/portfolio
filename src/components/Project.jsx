@@ -2,11 +2,9 @@ import React from "react";
 import "../css/project.css";
 
 const Project = ({ name, description, link, img, tech }) => {
-  const handleClick = () => {
-    window.open(link);
-  };
+
   return (
-    <div className="project-card col-md-6 col-12" onClick={handleClick}>
+    <div className="project-card col-md-6 col-12">
       <div className="text-box container-fluid">
         <h2 className="name">
           <a href={link} target="_blank">

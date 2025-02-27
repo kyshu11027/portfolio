@@ -9,11 +9,6 @@
   flex-direction: row;
 }
 
-.project-card:hover {
-  filter: brightness(90%);
-  cursor: pointer;
-}
-
 .text-box {
   padding: 10px;
 }
@@ -49,4 +44,8 @@
   max-height: 150px;
   max-width: 150px;
   align-items: center;
+}
+
+.description a {
+  color: #d9d9d9;
 }

@@ -12,13 +12,18 @@ const Projects = () => {
             <Project
                 name="PickPix"
                 link="https://pickpix.vercel.app/"
-                description="Browser application for social media users to share photos with their friends to determine the most post-worthy content."
+                description={
+                    <div> 
+                        <p>Browser application for social media users to share photos with their friends to determine the most post-worthy content. </p>
+                        <p><a href = 'https://github.com/kyshu11027/photo-ranker-backend' target = "_blank">Backend Repository</a> &emsp; <a href = 'https://github.com/kyshu11027/photo-ranker' target = "_blank">Frontend Repository</a></p>
+                    </div> 
+                }
                 tech={[
                     "AWS (Lambdas, DynamoDB, S3)",
                     "Python",
                     "NextJS",
                     "TailwindCSS",
-                    "Terraform"
+                    "Terraform" 
                 ]}
                 img={pickpix}
                 className="row"

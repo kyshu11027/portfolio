@@ -4,11 +4,34 @@ import ootd from "/assets/ootd.png";
 import peakRec from "/assets/peak-rec.png";
 import website from "/assets/website.png";
 import pickpix from "/assets/pickpix.png";
+import financialChatbot from "/assets/financial-chatbot.png"
 import "../css/projects.css";
 
 const Projects = () => {
     return (
         <div className="project-container">
+            <Project
+                name="Financial Chatbot"
+                link="https://github.com/kyshu11027/financial-chatbot-client"
+                description={
+                    <div> 
+                        <p> A personal finance analyst that fetches user banking data to be fed as context to an LLM for financial advice. (Work in progress, yet to be deployed)</p>
+                        <p><a href = 'https://github.com/kyshu11027/financial-chatbot-api' target = "_blank">Client API Repository</a> &emsp; <a href = 'https://github.com/kyshu11027/financial-chatbot-llm' target = "_blank"> LLM Worker Repository</a></p>
+                    </div> 
+                }
+                tech={[
+                    "Golang",
+                    "Python",
+                    "NextJS",
+                    "Kafka",
+                    "LangChain",
+                    "MongoDB",
+                    "Supabase",
+                    "Plaid"
+                ]}
+                img={financialChatbot}
+                className="row"
+            />
             <Project
                 name="PickPix"
                 link="https://pickpix.vercel.app/"

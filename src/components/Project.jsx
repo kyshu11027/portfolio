@@ -1,8 +1,6 @@
-import React from "react";
 import "../css/project.css";
 
 const Project = ({ name, description, link, img, tech }) => {
-
   return (
     <div className="project-card col-md-6 col-12">
       <div className="text-box container-fluid">

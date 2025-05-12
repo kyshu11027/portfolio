@@ -1,4 +1,3 @@
-import { useState } from "react";
 import AboutMe from "./components/AboutMe";
 import Navbar from "./components/Navbar";
 import "./App.css";
@@ -8,14 +7,17 @@ import Skills from "./components/Skills";
 
 function App() {
   return (
-    <>
+    <div className="app-container container-fluid">
       <Navbar />
-      <Routes>
-        <Route exact path="/" element={<AboutMe />} />
-        <Route exact path="/projects" element={<Projects />} />
-        <Route exact path="/skills" element={<Skills />} />
-      </Routes>
-    </>
+
+      <div className="page-body">
+        <Routes>
+          <Route exact path="/" element={<AboutMe />} />
+          <Route exact path="/projects" element={<Projects />} />
+          <Route exact path="/skills" element={<Skills />} />
+        </Routes>
+      </div>
+    </div>
   );
 }
 

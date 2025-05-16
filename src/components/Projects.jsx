@@ -12,11 +12,10 @@ const Projects = () => {
         <div className="project-container">
             <Project
                 name="Financial Chatbot"
-                link="https://github.com/kyshu11027/financial-chatbot-client"
+                link="https://github.com/kyshu11027/financial-chatbot"
                 description={
                     <div> 
                         <p> A personal finance analyst that fetches user banking data to be fed as context to an LLM for financial advice. (Work in progress, yet to be deployed)</p>
-                        <p><a href = 'https://github.com/kyshu11027/financial-chatbot-api' target = "_blank">Client API Repository</a> &emsp; <a href = 'https://github.com/kyshu11027/financial-chatbot-llm' target = "_blank"> LLM Worker Repository</a></p>
                     </div> 
                 }
                 tech={[

@@ -11,21 +11,21 @@ const Projects = () => {
   return (
     <div className="project-container">
       <Project
-        name="Financial Chatbot"
-        link="https://www.youtube.com/watch?v=8TAVY58alXA"
+        name="Penny Financial Chatbot"
+        link="https://pennyapp.kevinyshu.work/"
         description={
           <div>
             <p>
               A personal finance analyst that fetches user banking data to be
-              fed as context to an LLM for financial advice. (Work in progress,
-              yet to be deployed)
+              fed as context to an LLM for financial advice. Sign up for a 1 day
+              free trial.
             </p>
             <p>
               <a
-                href="https://github.com/kyshu11027/financial-chatbot"
+                href="https://www.youtube.com/watch?v=8TAVY58alXA"
                 target="_blank"
               >
-                GitHub Landing Page
+                Demo Video
               </a>
             </p>
           </div>

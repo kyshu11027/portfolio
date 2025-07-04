@@ -4,7 +4,7 @@ import ootd from "/assets/ootd.png";
 import peakRec from "/assets/peak-rec.png";
 import website from "/assets/website.png";
 import pickpix from "/assets/pickpix.png";
-import financialChatbot from "/assets/financial-chatbot.png";
+import penny from "/assets/penny-logo.png";
 import "../css/projects.css";
 
 const Projects = () => {
@@ -18,7 +18,7 @@ const Projects = () => {
             <p>
               A personal finance analyst that fetches user banking data to be
               fed as context to an LLM for financial advice. Sign up for a 1 day
-              free trial.
+              free trial and try it out!
             </p>
             <p>
               <a
@@ -40,7 +40,7 @@ const Projects = () => {
           "Supabase",
           "Plaid",
         ]}
-        img={financialChatbot}
+        img={penny}
         className="row"
       />
       <Project
